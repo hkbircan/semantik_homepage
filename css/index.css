@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  font-family: tahoma;
+}
+header {
+  background-color: red;
+  color: aliceblue;
+  height: 10vh;
+  text-align: center;
+  padding: 20px 0px;
+}
+nav {
+  background-color: blue;
+  color: aliceblue;
+  height: 5vh;
+  text-align: center;
+  padding: 12px 0px;
+}
+aside {
+  width: 20vw;
+  height: 70vh;
+  float: left;
+  padding: 10%;
+  background-color: yellow;
+  color: rgb(21, 20, 20);
+  text-align: center;
+  border: 7px solid red;
+  border-radius: 5%;
+}
+main {
+  background-image: url(../assets/img/monalisa.jpeg);
+  height: 70vh;
+  width: 78vw;
+  padding: 6rem;
+  color: white;
+  text-align: center;
+  float: right;
+  background-size: cover;
+}
+.clear {
+  clear: both;
+}
+footer {
+  background-color: rgb(173, 173, 158);
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
